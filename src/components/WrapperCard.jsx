@@ -5,6 +5,7 @@ import CardContent from "@mui/material/CardContent";
 import Header from "./Header";
 import Cards from "./Cards";
 import AddCard from "./AddCard";
+import Footer from "./Footer";
 
 const WrapperCard = () => {
     const CardStyle = {
@@ -27,7 +28,7 @@ const WrapperCard = () => {
       <CardContent >
         <Cards/>
       </CardContent>
-      
+      <Footer/>
     </Card>
   );
 };
